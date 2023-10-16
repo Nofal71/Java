@@ -64,7 +64,10 @@ public class Main {
     String MyText = "CASE";
     System.out.println(MyText.toLowerCase());
     System.out.println(MyText.toUpperCase());  
-    System.out.println(MyText.indexOf("E")); //Location of Text in String
+    System.out.println(MyText.indexOf("E"));
+    System.out.println(MyText.indexOf("B"));
+    System.out.println(MyText.indexOf("C"));//Location of Text in String
+    
     
   }
 }
