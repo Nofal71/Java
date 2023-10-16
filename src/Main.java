@@ -54,7 +54,7 @@ public class Main {
     System.out.println(x > y); // True
     System.out.println(x < y); // fasle
     System.out.println(x == y);// fasle
-
+    // And,Or
      System.out.println(x > y && y < x); // True if both are true
      System.out.println(x > y || y == x); // True if one is are true
      System.out.println(!(x > y &&  y == x)); // Reverse the Result
