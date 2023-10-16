@@ -55,9 +55,16 @@ public class Main {
     System.out.println(x < y); // fasle
     System.out.println(x == y);// fasle
     // And,Or
-     System.out.println(x > y && y < x); // True if both are true
-     System.out.println(x > y || y == x); // True if one is are true
-     System.out.println(!(x > y &&  y == x)); // Reverse the Result
+    System.out.println(x > y && y < x); // True if both are true
+    System.out.println(x > y || y == x); // True if one is are true
+    System.out.println(!(x > y &&  y == x)); // Reverse the Result
+    
+    // Advance of Strings
+    System.out.println("Some Advance Uses of Strings : ");
+    String MyText = "CASE";
+    System.out.println(MyText.toLowerCase());
+    System.out.println(MyText.toUpperCase());  
+    System.out.println(MyText.indexOf("E")); //Location of Text in String
     
   }
 }
