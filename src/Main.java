@@ -40,7 +40,7 @@ public class Main {
     int FinalWeight = (int) weight;
     char unit = 'g';  //Used as a unit of weught
     
-    System.out.print("Accurate Weight = ");
+    System.out.print("Accurate Weight(in decimals) = ");
     System.out.print(weight);
     System.out.println(unit);
     System.out.print("Approximate Amount = ");
