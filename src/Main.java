@@ -47,5 +47,17 @@ public class Main {
     System.out.print(FinalWeight);
     System.out.println(unit);
 
+    // Java logics
+
+    int x = 5;
+    int y = 3;
+    System.out.println(x > y); // True
+    System.out.println(x < y); // fasle
+    System.out.println(x == y);// fasle
+
+     System.out.println(x > y && y < x); // True if both are true
+     System.out.println(x > y || y == x); // True if one is are true
+     System.out.println(!(x > y &&  y == x)); // Reverse the Result
+    
   }
 }
