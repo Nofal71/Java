@@ -20,7 +20,32 @@ public class Main {
     String firstname = "Nofal";
     String Lastname = " Hassaan";
     String Fullname = firstname + Lastname;
+    
     System.out.println(Fullname);
+
+    //Type casting
+    // Narrrow to wide
+
+    System.out.println("ITS A TYPE CASTING FROM NARROW TO WIDE");
+    int myint = 12;
+    double mydouble = myint;
+
+    System.out.println(myint);
+    System.out.println(mydouble);
+
+    // wide to Narrow
+    System.out.println("ITS A TYPE CASTING FROM WIDE TO NARROW ");
+    System.out.println("For Example : ");
+    double weight = 105.70;
+    int FinalWeight = (int) weight;
+    char unit = 'g';  //Used as a unit of weught
+    
+    System.out.print("Accurate Weight = ");
+    System.out.print(weight);
+    System.out.println(unit);
+    System.out.print("Approximate Amount = ");
+    System.out.print(FinalWeight);
+    System.out.println(unit);
 
   }
 }
