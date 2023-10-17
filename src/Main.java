@@ -89,6 +89,19 @@ public class Main {
     Boolean javaIsNotFun = false;
     System.out.println(javaIsFun);
     System.out.println(javaIsNotFun);
-    
+
+    // Some Examples related to integers
+
+    System.out.println(10==30);
+    System.out.println(10<=30);
+    System.out.println(10>=30);
+    System.out.println(10>30);
+    System.out.println(10<30);
+
+    // real life Example
+
+    int myAge = 18, myBrosAge = 12;
+    System.out.println(myAge<myBrosAge);
+    System.out.println(myAge>myBrosAge);
   }
 }
