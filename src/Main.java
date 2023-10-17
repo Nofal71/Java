@@ -103,5 +103,14 @@ public class Main {
     int myAge = 18, myBrosAge = 12;
     System.out.println(myAge<myBrosAge);
     System.out.println(myAge>myBrosAge);
+
+    // use of if else to apply conditions
+
+    if(myAge>myBrosAge)
+  {
+    System.out.println("You are Elder");
+  }
+  else
+   System.out.println("You are not Elder");
   }
 }
