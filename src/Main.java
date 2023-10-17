@@ -1,4 +1,5 @@
 public class Main {
+  
   public static void main(String[] args) {
     System.out.println("Hello World");
     System.out.println("Nofal hassaan");
@@ -64,10 +65,16 @@ public class Main {
     String MyText = "CASE";
     System.out.println(MyText.toLowerCase());
     System.out.println(MyText.toUpperCase());  
-    System.out.println(MyText.indexOf("E"));
-    System.out.println(MyText.indexOf("B"));
     System.out.println(MyText.indexOf("C"));//Location of Text in String
-    
+
+    // To Concatention of strings + is used 
+    // to goto new line
+
+    System.out.println("GOING TO NEW LINE \nHello");
+    // tab
+    System.out.println("GOING TO NEW LINE \tHello");
+    //  backspace
+    System.out.println("GOING TO NEW LINE \bHello");
     
   }
 }
