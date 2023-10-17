@@ -75,6 +75,15 @@ public class Main {
     System.out.println("GOING TO NEW LINE \tHello");
     //  backspace
     System.out.println("GOING TO NEW LINE \bHello");
+
+    // Java Math
+    
+
+    
+    System.out.println(Math.max(10,12 ));
+    System.out.println(Math.min(9,19));
+    System.out.println(Math.sqrt(89));
+    System.out.println(Math.abs(88.22));
     
   }
 }
