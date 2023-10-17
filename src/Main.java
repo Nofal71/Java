@@ -112,5 +112,20 @@ public class Main {
   }
   else
    System.out.println("You are not Elder");
+
+  // switch is used for condition
+
+  System.out.println("USE OF SWITCH CASE");
+
+  int age = 12;
+  switch(age){
+  case 12:
+  System.out.println("Your Age is 12");
+  break;
+  default:
+  System.out.println("Default");
+
+   }
+
   }
 }
