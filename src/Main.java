@@ -125,6 +125,24 @@ public class Main {
   default:
   System.out.println("Default");
 
+  // use of while loop
+  // To print 1 to 5
+
+  
+  int q=0;
+  while(q < 5){
+  System.out.println(q);
+  q++; 
+  }
+  // use of do-while loop
+  
+  do{
+  System.out.println(q);
+  q++;
+  }
+  while(q<5);
+  
+
    }
 
   }
