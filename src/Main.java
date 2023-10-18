@@ -111,39 +111,58 @@ public class Main {
     System.out.println("You are Elder");
   }
   else
-   System.out.println("You are not Elder");
+    System.out.println("You are not Elder");
 
-  // switch is used for condition
+    // switch is used for condition
 
-  System.out.println("USE OF SWITCH CASE");
+    System.out.println("USE OF SWITCH CASE");
 
-  int age = 12;
+    int age = 12;
   switch(age){
   case 12:
-  System.out.println("Your Age is 12");
+    System.out.println("Your Age is 12");
   break;
   default:
-  System.out.println("Default");
+    System.out.println("Default");
 
-  // use of while loop
-  // To print 1 to 5
+    // use of while loop
+    // To print 1 to 5
 
   
-  int q=0;
+    int q=0;
   while(q < 5){
-  System.out.println(q);
-  q++; 
+    System.out.println(q);
+    q++; 
   }
-  // use of do-while loop
+    // use of do-while loop
   
   do{
-  System.out.println(q);
-  q++;
+    System.out.println(q);
+    q++;
   }
   while(q<5);
   
+  // For loop
 
-   }
+  for (int h=1; h<5; h++)
+  {
+    System.out.println(h);
 
   }
+  
+  // Nested Loop Exexcute 2 times
+
+  for (int f = 1 ; f<=12;f++)
+  {
+    System.out.println(f);
+
+    for(int p = 0 ; p>20; p++)
+    {
+      System.out.println(p);
+    }   
+  }
+
+
+}
+}
 }
