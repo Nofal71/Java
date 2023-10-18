@@ -1,23 +1,26 @@
 public class Main {
   
   public static void main(String[] args) {
-    System.out.println("Hello World");
-    System.out.println("Nofal hassaan");
-    System.out.println("My First Repository");
-    //Println is used to endline , whilw print() line not ending
+
+    System.out.println("   JAVA LEARNING  ");
+    //Println is used to endline , while print() line not ending
     // Without "" to display numbers:
-    System.out.println(1+5);
-    System.out.println(2*8);
-    System.out.println(6/10);
+   
+    System.out.println("   USE OF MAthematical Operations  ");
+   
+    System.out.println("Addition of Two Numbers : 1+5 = " + 1+5);
+    System.out.println("Multiplication of Two Numbers : 2*8 = " +2*8);
+    System.out.println("Division of Two Numbers : 6/10 = " + 6/10);
     //Variables
     String name = "Nofal";
     int mynum = 12;
     char myLetter = 'D';
-    System.out.println(name);
-    System.out.println(mynum);
-    System.out.println(myLetter);
+    System.out.println("String \" NOFAL\" = "+name);
+    System.out.println("int Number = "+mynum);
+    System.out.println("Char Character = "+ myLetter);
     // combining variables
-
+   
+    System.out.println("Adding Tow Words In String : ");
     String firstname = "Nofal";
     String Lastname = " Hassaan";
     String Fullname = firstname + Lastname;
