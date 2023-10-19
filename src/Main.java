@@ -133,8 +133,11 @@ public class Main {
     System.out.println("Your Age is 12");
   break;
   default:
-    System.out.println("Default");
 
+    System.out.println("Default");
+  
+
+  }
     // use of while loop
     // To print 1 to 5
 
@@ -173,26 +176,29 @@ public class Main {
     }   
   }
  System.out.println(" --------------\n| Break/Continue |\n --------------" );
- 
+ System.out.println("Break Statement : ");
  for(int t = 1 ; t<10 ; t++)
  {
   if(t==5){
+    System.out.println("t==5 \nbreak ");
     break;
   }
  System.out.println(t); 
 
 }
-
+System.out.println("Continue Statement : ");
  for(int t = 1 ; t<10 ; t++)
  {
-  if(t==5){
+  if(t<5){
     continue;
   }
+ 
  System.out.println(t); 
 
 }
+ System.out.println("t < 5 \ncontinue  ");
  System.out.println("Also used in Switch statement");
 
 }
 }
-}
+
