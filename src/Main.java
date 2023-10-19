@@ -199,6 +199,30 @@ System.out.println("Continue Statement : ");
  System.out.println("t < 5 \ncontinue  ");
  System.out.println("Also used in Switch statement");
 
+ System.out.println(" --------------\n| Java Arrays |\n --------------" );
+ 
+ System.out.println("Arrays of Strings : \n");
+ String[] city = {"Lahore" , "Islamabad" , "Karachi" , "Multan"};
+ System.out.println("string city " + city);
+
+ System.out.println("Arrays of Numbers");
+ int[] myNumbers= {1 ,2 ,3, 4, 5, 6, 7, 8};
+ System.out.println("int myNumbers : " + myNumbers);
+// Accesing elements in Arrays
+ System.out.println("Accesing elements in Arrays : ");
+ System.out.println("string city[0] : " + city[0]);
+ System.out.println("int myNumbers[3] : " + myNumbers[3]);
+//  in Java to acess Counting is based on whole numbers
+ System.out.println("Changing value of specific Array : ");
+ myNumbers[2] = 99 ;
+ System.out.println("myNumber[2] = "+ myNumbers[2]);
+ 
+ System.out.println("Using Loops in Array  "); 
+for(int r = 3 ; r < city.length ; r++)
+{
+  System.out.println(city[r]);
+}
+
 }
 }
 
