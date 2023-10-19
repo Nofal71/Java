@@ -172,7 +172,26 @@ public class Main {
       System.out.println(p);
     }   
   }
+ System.out.println(" --------------\n| Break/Continue |\n --------------" );
+ 
+ for(int t = 1 ; t<10 ; t++)
+ {
+  if(t==5){
+    break;
+  }
+ System.out.println(t); 
 
+}
+
+ for(int t = 1 ; t<10 ; t++)
+ {
+  if(t==5){
+    continue;
+  }
+ System.out.println(t); 
+
+}
+ System.out.println("Also used in Switch statement");
 
 }
 }
