@@ -1,13 +1,83 @@
 public class Main {
   
+    //  Defining Java Methods
+
+ static void javaMethods(){
+  // void returns no value
+ System.out.println(" --------------\n| JAVA Methods |\n --------------" );
+
+ }
+ static void javaLearning(){
+  
+ System.out.println(" --------------\n| JAVA LEARNING |\n --------------" );
+
+ }
+ static void Mths(){
+  
+ System.out.println(" --------------------\n| USE OF MAthematical|\n|    Operations      |\n --------------------");
+
+ }
+ static void typecasting(){
+  
+  System.out.println(" --------------\n| TYPE CASTING |\n --------------\n NARROW TO WIDE : " );
+ }
+
+ static void javaLogics(){
+ 
+  System.out.println(" --------------\n| JAVA LOGICS |\n --------------" );
+ }
+
+ static void javaStrings(){
+ 
+  System.out.println(" --------------\n| JAVA STRINGS |\n --------------" );
+ } 
+
+ static void javaMath(){
+ 
+  System.out.println(" --------------\n| JAVA MATH |\n --------------" );
+ }
+
+ static void Boolean(){
+ 
+  System.out.println(" --------------\n| BOOLEAN |\n --------------" );
+ }
+
+  static void Conditions(){
+ 
+  System.out.println(" --------------\n| JAVA CONDITIONS |\n --------------" );
+ }
+
+  static void WhileLoop(){
+ 
+  System.out.println(" --------------\n| WHILE LOOP |\n --------------" );
+ }
+
+  static void DoWhileLoop(){
+ 
+  System.out.println(" --------------\n| DO-WHILE LOOP |\n --------------" );
+ }
+ 
+  static void ForLoop(){
+ 
+  System.out.println(" --------------\n| FOR LOOP |\n --------------" );
+ }
+
+  static void BreakContinue(){
+ 
+  System.out.println(" --------------\n| Break/Continue |\n --------------" );
+ }
+
+  static void Arrays(){
+ 
+  System.out.println(" --------------\n| Java Arrays |\n --------------" );
+ }
   public static void main(String[] args) {
 
-    System.out.println(" --------------\n| JAVA LEARNING |\n --------------" );
+   javaLearning();
     //Println is used to endline , while print() line not ending
     // Without "" to display numbers:
-   
-    System.out.println(" --------------------\n| USE OF MAthematical|\n|    Operations      |\n --------------------");
-   
+    // DECLARARTION (Declaration of Java Methods in code)
+    Mths();                                                                                  // DECLARATION
     System.out.println("Addition of Two Numbers : 1 + 5 = " + 1+5);
     System.out.println("Multiplication of Two Numbers : 2 * 8 = " +2*8);
     System.out.println("Division of Two Numbers : 6/10 = " + 6/10);
@@ -19,12 +89,10 @@ public class Main {
     System.out.println("int Number = "+mynum);
     System.out.println("Char Character = "+ myLetter);
     // combining variables
-   
     System.out.println("Adding Two Words In String : ");
     String firstname = "Nofal";
     String Lastname = " Hassaan";
     String Fullname = firstname + Lastname;
-    
     System.out.println("First Name : "+firstname);
     System.out.println("Last Name : "+Lastname);
     System.out.println("First Name + Last Name : "+Fullname);
@@ -32,29 +100,25 @@ public class Main {
     //Type casting
     // Narrrow to wide
 
-    System.out.println(" --------------\n| TYPE CASTING |\n --------------\n NARROW TO WIDE : " );
+    typecasting();                                                                            // DECLARATION
     int myint = 12;
     double mydouble = myint;
-
     System.out.println("int Myint : "+myint);
     System.out.println("double myDouble : "+mydouble);
-
     // wide to Narrow
     System.out.println(" WIDE TO NARROW ");
     System.out.println("For Example : ");
     double weight = 105.70;
     int FinalWeight = (int) weight;
     char unit = 'g';  //Used as a unit of weught
-    
-    
     System.out.print("double weight : "+weight);
     System.out.println( unit);
     System.out.print("int weight : (int) = "+FinalWeight);
     System.out.println( unit);
 
     // Java logics
-   System.out.println(" --------------\n| JAVA LOGICS |\n --------------" );
-
+   
+    javaLogics();                                                                            // DECLARATION
     // And,Or
     int x = 5;
     int y = 3;
@@ -66,7 +130,7 @@ public class Main {
     System.out.println(!(x > y &&  y == x)); // Reverse the Result
     
     // Advance of Strings
-     System.out.println(" --------------\n| JAVA STRINGS |\n --------------" );
+    javaStrings();                                                                          // DECLARATION
     String MyText = "Alphabets";
     System.out.println("To Lower Case : " + MyText.toLowerCase());
     System.out.println("To Upper Case : " +MyText.toUpperCase());  
@@ -82,21 +146,19 @@ public class Main {
     System.out.println("Use of Bar \bHello");
 
     // Java Math
-   System.out.println(" --------------\n| JAVA MATH |\n --------------" );
+    javaMath();                                                                             // DECLARATION
     System.out.println("MAX (10 ,12): " +Math.max(10,12 ));
     System.out.println("MIN (9 , 19): " +Math.min(9,19));
     System.out.println("Squre Root (89): " +Math.sqrt(89));
     System.out.println("Absolute Value (88.22): " +Math.abs(88.22));
 
     // Java booleans or said to be condition of true or false
-    System.out.println(" --------------\n| BOOLEAN |\n --------------" );
+    Boolean();                                                                              // DECLARATION
     Boolean javaIsFun = true ;
     Boolean javaIsNotFun = false;
     System.out.println("Java is Fun " +javaIsFun);
     System.out.println("Java is not Fun " +javaIsNotFun);
-
     // Some Examples related to integers
-
     int g = 5;
     int h = 3;
     System.out.println("x > y = ");
@@ -105,9 +167,8 @@ public class Main {
     System.out.println(g < h); // fasle
     System.out.println("x == y = ");
     System.out.println(g == h);// fasle
-
     // real life Example
-   System.out.println(" --------------\n| EXAMPLE |\n --------------" );
+    System.out.println(" --------------\n| EXAMPLE |\n --------------" );
     int myAge = 18, myBrosAge = 12;
     System.out.println("My Age < My Brother age = ");
     System.out.println(myAge<myBrosAge);
@@ -115,7 +176,8 @@ public class Main {
     System.out.println(myAge>myBrosAge);
 
     // use of if else to apply conditions
-   System.out.println(" --------------\n| JAVA CONDITIONS |\n --------------" );
+   
+    Conditions();                                                                            // DECLARATION
     if(myAge>myBrosAge)
   {
     System.out.println("You are Elder");
@@ -141,21 +203,21 @@ public class Main {
     // use of while loop
     // To print 1 to 5
 
-   System.out.println(" --------------\n| WHILE LOOP |\n --------------" );
+    WhileLoop();                                                                            // DECLARATION
     int q=0;
   while(q < 5){
     System.out.println(q);
     q++; 
   }
     // use of do-while loop
-  System.out.println(" --------------\n| DO-WHILE LOOP |\n --------------" );
+   DoWhileLoop();                                                                           // DECLARATION
   do{
     System.out.println(q);
     q++;
   }
   while(q<5);
 
-  System.out.println(" --------------\n| FOR LOOP |\n --------------" );
+  ForLoop();                                                                                // DECLARATION
   // For loop
 
   for (int u=1; u<5; u++)
@@ -175,7 +237,7 @@ public class Main {
       System.out.println(p);
     }   
   }
- System.out.println(" --------------\n| Break/Continue |\n --------------" );
+ BreakContinue();                                                                             // DECLARATION
  System.out.println("Break Statement : ");
  for(int t = 1 ; t<10 ; t++)
  {
@@ -199,8 +261,8 @@ System.out.println("Continue Statement : ");
  System.out.println("t < 5 \ncontinue  ");
  System.out.println("Also used in Switch statement");
 
- System.out.println(" --------------\n| Java Arrays |\n --------------" );
- 
+
+ Arrays();                                                                                    // DECLARATION
  System.out.println("Arrays of Strings : \n");
  String[] city = {"Lahore" , "Islamabad" , "Karachi" , "Multan"};
  System.out.println("string city " + city);
@@ -223,6 +285,10 @@ for(int r = 3 ; r < city.length ; r++)
   System.out.println(city[r]);
 }
 
+// Java Methods are difined before public static void main ;
+System.out.println("Declaring Java Method : " );
+// Same functionality as functions in c++
+javaMethods();                                                                                // DECLARATION
 }
 }
 
