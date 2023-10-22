@@ -77,9 +77,38 @@ Test Data:
    double area = pi * input*input;
    System.out.println("Parameter of Circle is = "+Parameter);
    System.out.println("Area of Circle is = "+ area);
+    
+//    12. Write a Java program that takes three numbers as input to calculate and print the average of the numbers
 
+   
+    Scanner Numb1 = new Scanner(System.in);
+    Scanner Numb2 = new Scanner(System.in);
+    Scanner Numb3 = new Scanner(System.in);
+    System.out.println("Average of Three Numbers : ");
+    System.out.print("Enter Number = ");
+    int myNum1 = Numb1.nextInt();
+    System.out.print("Enter Number = ");
+    int myNum2 = Numb1.nextInt();
+    System.out.print("Enter Number = ");
+    int myNum3 = Numb1.nextInt();
 
+    int Average = (myNum1+myNum2+myNum3)/3;
+    System.out.println("Average = " + Average );
 
+    // 13. Write a Java program to print the area and perimeter of a rectangle.
+
+   Scanner length = new Scanner(System.in);
+   System.out.print("Length = ");
+   int l = length.nextInt();
+   Scanner width = new Scanner(System.in);
+   System.out.print("width = ");
+   int w = width.nextInt();
+   
+   int AreaOfrectangle = l*w;
+   int ParameterOfRectangle = 2*(l*w); 
+ 
+   System.out.println("Parameter of Rectangle is = "+ ParameterOfRectangle);
+   System.out.println("Area of Rectangle is = "+ AreaOfrectangle);
 
 
 
