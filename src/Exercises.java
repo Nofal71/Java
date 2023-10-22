@@ -41,7 +41,7 @@ public class Exercises {
     //  7. Write a Java program that takes a number as input and prints its multiplication table up to 10.
 
     Scanner table = new Scanner(System.in);
-    System.out.print("Enter Number = ");
+    System.out.print("Enter Number for Table = ");
 
     int Table = table.nextInt();
     for(int i = 0 ; i <=10; i++)
@@ -50,20 +50,20 @@ public class Exercises {
     }
 
 
-    /*  9. Write a Java program to compute the specified expressions and print the output.
+     /*  9. Write a Java program to compute the specified expressions and print the output.
 Test Data:
 ((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5))
 */
    
-//    System.out.println(((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5)));
+   System.out.println("Required Result = "+((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5)));
 
 
-//    10. Write a Java program to compute a specified formula.
-// Specified Formula :
-// 4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11)
+/*10. Write a Java program to compute a specified formula.
+Specified Formula :
+4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11)*/
 
 
-//    System.out.println( 4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11)));
+   System.out.println("Required Result = "+ 4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11)));
 
 
 // 11. Write a Java program to print the area and perimeter of a circle.
@@ -99,16 +99,31 @@ Test Data:
 
    Scanner length = new Scanner(System.in);
    System.out.print("Length = ");
-   int l = length.nextInt();
+   float l = length.nextFloat();
    Scanner width = new Scanner(System.in);
    System.out.print("width = ");
-   int w = width.nextInt();
+   float w = width.nextFloat();
    
-   int AreaOfrectangle = l*w;
-   int ParameterOfRectangle = 2*(l*w); 
+   float AreaOfrectangle = l*w;
+   float ParameterOfRectangle = 2*(l+w); 
  
    System.out.println("Parameter of Rectangle is = "+ ParameterOfRectangle);
    System.out.println("Area of Rectangle is = "+ AreaOfrectangle);
+
+//    15. Write a Java program to swap two variables.
+    
+    int a = 12;
+    int b = 10 ;
+    System.out.println("Before swaping :");
+    System.out.println("a = "+ a);
+    System.out.println("b = "+ b);
+    System.out.println("After swaping :");
+    int c = a;
+    a = b ;
+    b = c ;
+    
+    System.out.println("a = "+ a);
+    System.out.println("b = "+ b);
 
 
 
