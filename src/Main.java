@@ -265,7 +265,19 @@ System.out.println("Continue Statement : ");
  Arrays();                                                                                    // DECLARATION
  System.out.println("Arrays of Strings : \n");
  String[] city = {"Lahore" , "Islamabad" , "Karachi" , "Multan"};
+  int[] numbersArray = {100,900,400,700};
+
  System.out.println("string city " + city);
+
+ for(int b = 0 ;b <= numbersArray.length ; b++)
+ {
+   
+   
+  numbersArray[b] = 0 ;
+   System.out.println(numbersArray[b]); 
+
+ }
+
 
  System.out.println("Arrays of Numbers");
  int[] myNumbers= {1 ,2 ,3, 4, 5, 6, 7, 8};
@@ -280,7 +292,7 @@ System.out.println("Continue Statement : ");
  System.out.println("myNumber[2] = "+ myNumbers[2]);
  
  System.out.println("Using Loops in Array  "); 
-for(int r = 3 ; r < city.length ; r++)
+for(int r = 2 ; r < city.length ; r++)
 {
   System.out.println(city[r]);
 }
