@@ -2,7 +2,7 @@
 
 import java.util.Scanner;;
 
-public class Exercises {
+public class App {
     public static void main (String[] args)
 
    { 
@@ -99,7 +99,4 @@ Test Data:
 
 
 
-}
-
-}
 
