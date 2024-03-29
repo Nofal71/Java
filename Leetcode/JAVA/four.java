@@ -1,5 +1,4 @@
 public class four {
-
     public static int operations(String[] operations) {
         int X = 0;
 
@@ -17,14 +16,11 @@ public class four {
                     break;
             }
         }
-
         return X;
     }
-
     public static void main(String[] args) {
-
-        String[] operations = { "++X", "++X", "X++" };
-        System.out.println(operations(operations));
+        String[] operations = { "--X", "++X", "X++" , "X++" , "--X" };
+        System.out.println("Final Value After Operations = " +operations(operations));
 
     }
 }
