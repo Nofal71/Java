@@ -18,9 +18,10 @@ public class six {
     }
 
     public static void main(String[] args) {
-        String[] array = { "leetcode", "code" };
-        List<Integer> result = findWordsContaining(array, 'e');
-        System.out.println(result);
+        String[] array = { "nofal", "Hassaan" , "Leet" , "code" , "problem Solving"};
+        char toFind = 'n';
+        List<Integer> result = findWordsContaining(array, toFind);
+        System.out.println("Required Character is At Index of : " + result);
     }
 
 }
