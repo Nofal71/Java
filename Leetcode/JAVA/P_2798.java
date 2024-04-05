@@ -1,4 +1,4 @@
-public class nine {
+public class P_2798 {
     public static int numberOfEmployeesWhoMetTarget(int[] hours, int target) {
         int numOfEmployes = 0;
 

@@ -1,7 +1,7 @@
 
 
 
-public class five {
+public class P_1470 {
 
     public static int[] shuffle(int[] nums, int n) {
 

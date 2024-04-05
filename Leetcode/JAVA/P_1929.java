@@ -1,7 +1,7 @@
 
 
 
-public class one {
+public class P_1929 {
    
     public static int[] concatination(int[] nums) {
         int[] ans = new int[2 * nums.length];

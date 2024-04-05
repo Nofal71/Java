@@ -1,4 +1,4 @@
-public class two {
+public class P_1920 {
 
     public static void Zero(int[] array, int size) {
 

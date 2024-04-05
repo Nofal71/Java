@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class eleven {
+public class P_2824 {
 
     public static int countPairs(List<Integer> nums, int target) {
         int pairs = 0;

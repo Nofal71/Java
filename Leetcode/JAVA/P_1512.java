@@ -1,4 +1,4 @@
-public class three {
+public class P_1512 {
 
     public static void goodPairs(int array[]) {
 

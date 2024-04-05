@@ -1,4 +1,4 @@
-public class Eight{
+public class P_1672{
     
         public int maximumWealth(int[][] accounts) {
         int maxWealth = 0;

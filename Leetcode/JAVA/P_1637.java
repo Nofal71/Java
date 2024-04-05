@@ -1,4 +1,4 @@
-public class seven {
+public class P_1637 {
     public static int maxWidthOfVerticalArea(int[][] points) {
         int[] area = new int[points.length];
         int WidestArea = 0;

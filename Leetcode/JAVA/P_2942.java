@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class six {
+public class P_2942 {
     public static List<Integer> findWordsContaining(String[] words, char x) {
         List<Integer> requiredIndex = new ArrayList<>();
         

@@ -1,4 +1,4 @@
-public class four {
+public class P_2011 {
     public static int operations(String[] operations) {
         int X = 0;
 
