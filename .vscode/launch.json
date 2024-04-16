@@ -1,0 +1,140 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "P_2574",
+            "request": "launch",
+            "mainClass": "P_2574",
+            "projectName": "Java-Learning_43a149a8"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "P_1365",
+            "request": "launch",
+            "mainClass": "P_1365",
+            "projectName": "Java-Learning_3d512c90"
+        },
+        {
+            "type": "java",
+            "name": "P_1431",
+            "request": "launch",
+            "mainClass": "P_1431",
+            "projectName": "Java-Learning_3d512c90"
+        },
+        {
+            "type": "java",
+            "name": "P_1470",
+            "request": "launch",
+            "mainClass": "P_1470",
+            "projectName": "Java-Learning_3d512c90"
+        },
+        {
+            "type": "java",
+            "name": "P_1480",
+            "request": "launch",
+            "mainClass": "P_1480",
+            "projectName": "Java-Learning_3d512c90"
+        },
+        {
+            "type": "java",
+            "name": "P_1512",
+            "request": "launch",
+            "mainClass": "P_1512",
+            "projectName": "Java-Learning_3d512c90"
+        },
+        {
+            "type": "java",
+            "name": "P_1637",
+            "request": "launch",
+            "mainClass": "P_1637",
+            "projectName": "Java-Learning_3d512c90"
+        },
+        {
+            "type": "java",
+            "name": "P_1672",
+            "request": "launch",
+            "mainClass": "P_1672",
+            "projectName": "Java-Learning_3d512c90"
+        },
+        {
+            "type": "java",
+            "name": "P_1720",
+            "request": "launch",
+            "mainClass": "P_1720",
+            "projectName": "Java-Learning_3d512c90"
+        },
+        {
+            "type": "java",
+            "name": "P_1920",
+            "request": "launch",
+            "mainClass": "P_1920",
+            "projectName": "Java-Learning_3d512c90"
+        },
+        {
+            "type": "java",
+            "name": "P_1929",
+            "request": "launch",
+            "mainClass": "P_1929",
+            "projectName": "Java-Learning_3d512c90"
+        },
+        {
+            "type": "java",
+            "name": "P_2011",
+            "request": "launch",
+            "mainClass": "P_2011",
+            "projectName": "Java-Learning_3d512c90"
+        },
+        {
+            "type": "java",
+            "name": "P_2114",
+            "request": "launch",
+            "mainClass": "P_2114",
+            "projectName": "Java-Learning_3d512c90"
+        },
+        {
+            "type": "java",
+            "name": "P_2433",
+            "request": "launch",
+            "mainClass": "P_2433",
+            "projectName": "Java-Learning_3d512c90"
+        },
+        {
+            "type": "java",
+            "name": "P_2798",
+            "request": "launch",
+            "mainClass": "P_2798",
+            "projectName": "Java-Learning_3d512c90"
+        },
+        {
+            "type": "java",
+            "name": "P_2824",
+            "request": "launch",
+            "mainClass": "P_2824",
+            "projectName": "Java-Learning_3d512c90"
+        },
+        {
+            "type": "java",
+            "name": "P_2942",
+            "request": "launch",
+            "mainClass": "P_2942",
+            "projectName": "Java-Learning_3d512c90"
+        },
+        {
+            "type": "java",
+            "name": "SubrectangleQueries",
+            "request": "launch",
+            "mainClass": "SubrectangleQueries",
+            "projectName": "Java-Learning_3d512c90"
+        }
+    ]
+}
