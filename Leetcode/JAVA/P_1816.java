@@ -3,12 +3,12 @@ public class P_1816 {
         String ans = "";
         String[] split = s.split(" ");
 
-        for (int i = 0; i < split.length && i < k ; i++) {
+        for (int i = 0; i < split.length && i < k; i++) {
             if (k == 1) {
                 ans += split[0];
                 break;
             } else {
-                    ans += (split[i] + " ");
+                ans += (split[i] + " ");
             }
         }
 
