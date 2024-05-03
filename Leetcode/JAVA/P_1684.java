@@ -2,32 +2,48 @@ public class P_1684 {
     public static int countConsistentStrings(String allowed, String[] words) {
         int ans = 0;
 
-        for (int i = 0; i < allowed.length() - 1; i++) { // Loop for allowed
-            for (int j = 0; j < words.length; j++) { // Loop for words array index
+        // for (int i = 0; i < allowed.length() - 1; i++) { // Loop for allowed
+        //     for (int j = 0; j < words.length; j++) { // Loop for words array index
 
-                Boolean temp1 = false;
-                Boolean temp2 = false;
+        //         Boolean temp1 = false;
+        //         Boolean temp2 = false;
 
-                for (int k = 0; k < words[j].length(); k++) { // Loop for indexed word length
+        //         for (int k = 0; k < words[j].length(); k++) { // Loop for indexed word length
 
-                    if (words[j].charAt(k) != allowed.charAt(0) && words[j].charAt(k) != allowed.charAt(1)) {
-                        temp1 = false;
-                        temp2 = false;
-                        break;
-                    }
+        //                 temp1 = false;
+        //                 temp2 = false;
+        //                 break;
+        //             }
 
-                    if (allowed.charAt(i) == words[j].charAt(k)) {
-                        temp1 = true;
-                    } else if (allowed.charAt(i + 1) == words[j].charAt(k)) {
-                        temp2 = true;
-                    }
+        //                 temp1 = true;
+        //                 temp2 = true;
+        //             }
 
-                }
-                if (temp1 == true && temp2 == true) {
-                    ans++;
+        //         }
+        //             ans++;
+        //         }
+        //     }
+        // }
+
+
+        for (int i = 0; i < words.length; i++) {
+            boolean consistent = true; // Assume the word is consistent until proven otherwise
+
+            for (int j = 0; j < words[i].length(); j++) {
+                if (allowed.indexOf(words[i].charAt(j)) == -1) {
+                    consistent = false; // If any character is not allowed, mark the word as inconsistent
+                    break; // No need to continue checking this word
                 }
             }
+
+            if (consistent) {
+                ans++; // If the word is consistent, increment the count
+            }
         }
+
+
+
+
 
         return ans;
     }
