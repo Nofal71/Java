@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "P_2373",
+            "request": "launch",
+            "mainClass": "P_2373",
+            "projectName": "Java-Learning_43a149a8"
+        },
+        {
+            "type": "java",
             "name": "P_1732",
             "request": "launch",
             "mainClass": "P_1732",
