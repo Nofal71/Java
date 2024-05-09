@@ -1,24 +1,23 @@
-public class P_2373 {
-    public static int[][] largestLocal(int[][] grid) {
+public class P_1572 {
+    public static int diagonalSum(int[][] mat) {
 
-        int rows = grid.length;
-        int cols = grid[0].length;
-        int count = 0;
+        int sum = 0;
+        int r = mat.length;
+        int c = mat[0].length;
 
-        for (int i = 0; i <= rows - 3; i++) {
-            for (int j = 0; j <= cols - 3; j++) {
-                count++;
+        for (int row = 0; row < r; row++) {
+            for (int col = 0; col < c; col++) {
+                if (row == col || row + col == r - 1) { // Adjusted the condition for right-to-left diagonal
+                    sum += mat[row][col];
+                }
             }
         }
 
-        int row = count / 2, col = count / 2;
-        int[][] maxLoxal = new int[row][col];
-
-   
-        return maxLoxal;
+        return sum;
 
     }
+
     public static void main(String[] args) {
-        
+
     }
 }
