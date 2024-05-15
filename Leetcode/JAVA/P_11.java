@@ -6,17 +6,24 @@ public class P_11 {
         int left = 0;
 
         while (left < right) {
-            
-            int minHeight = height[left] < height[right] ? height[left] : height[right];
+
+            int minHeight = 0;
+
+            if (height[left] < height[right]) {
+                minHeight = height[left];
+            } else {
+                minHeight = height[right];
+            }
+
             int area = minHeight * (right - left);
-            
+
             if (area > maxWater) {
                 maxWater = area;
             }
             if (height[left] < height[right]) {
                 left++;
-            } else{
-               right-- ;
+            } else {
+                right--;
             }
         }
 
