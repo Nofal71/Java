@@ -9,20 +9,29 @@ public class P_15 {
         List<List<Integer>> ans = new ArrayList<>();
 
         for (int i = 0; i < nums.length - 2; i++) {
-            for (int j = 0; j < nums.length - 1; j++) {
-                for (int k = 0; k < nums.length; k++) {
+            boolean test = false;
+            for (int j = i + 1; j < nums.length - 1; j++) {
+                for (int k = j + 1; k < nums.length; k++) {
                     List<Integer> group = new ArrayList<>();
                     if (nums[i] + nums[j] + nums[k] == 0) {
                         group.add(nums[i]);
                         group.add(nums[j]);
                         group.add(nums[k]);
                         Collections.sort(group);
-                        if (!(ans.contains(group)) && i != j && j != i) {
+                        if (!(ans.contains(group))) {
                             ans.add(group);
+                        } else {
+                            test = true;
+                            break;
                         }
                     }
-
                 }
+                if (test) {
+                    break;
+                }
+            }
+            if (test) {
+                break;
             }
         }
 
