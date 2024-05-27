@@ -1,26 +1,37 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class P_1637 {
     public static int maxWidthOfVerticalArea(int[][] points) {
-        int[] area = new int[points.length];
-        int WidestArea = 0;
+        int[] xCoordinates = new int[points.length];
+        int WidestArea = Integer.MAX_VALUE;
 
         for (int i = 0; i < points.length; i++) {
-            int difference = points[i][0] - points[i][1];
-            area[i] = difference;
+            xCoordinates[i] = points[i][0];
         }
-        for (int i = 0; i < area.length; i++) {
-            for (int j = 0; j < area.length; j++) {
-                if (area[i] > area[j]) {
-                    WidestArea = j;
-                }
+        Arrays.sort(xCoordinates);
+
+        if(xCoordinates.length == 1) {
+            return 0 ;
+        }
+
+        for (int i = 1; i < xCoordinates.length; i++) {
+            int diff = xCoordinates[i - 1] - xCoordinates[i];
+            if (WidestArea > diff) {
+                WidestArea = diff;
             }
         }
 
-        return WidestArea;
+        return Math.abs(WidestArea);
     }
 
     public static void main(String[] args) {
 
-        int[][] points = { { 3, 1 }, { 9, 0 }, { 1, 0 }, { 1, 4 }, { 5, 3 }, { 8, 8 } };
+        int[][] points = { { 8, 7 },
+                { 9, 9 },
+                { 7, 4 },
+                { 9, 7 },
+        };
         System.out.println(maxWidthOfVerticalArea(points));
 
     }
