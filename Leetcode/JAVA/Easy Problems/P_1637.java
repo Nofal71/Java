@@ -18,7 +18,7 @@ public class P_1637 {
         for (int i = 1; i < xCoordinates.length; i++) {
             int diff = xCoordinates[i - 1] - xCoordinates[i];
             if (WidestArea > diff) {
-                WidestArea = diff;
+                WidestArea = diff;  
             }
         }
 
