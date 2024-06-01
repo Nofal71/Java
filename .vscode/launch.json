@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "P_3110",
+            "request": "launch",
+            "mainClass": "P_3110",
+            "projectName": "LeetCode-Problem-Solving_1c3c6f77"
+        },
+        {
+            "type": "java",
+            "name": "P_3162",
+            "request": "launch",
+            "mainClass": "P_3162",
+            "projectName": "LeetCode-Problem-Solving_1c3c6f77"
+        },
+        {
+            "type": "java",
+            "name": "P_1827",
+            "request": "launch",
+            "mainClass": "P_1827",
+            "projectName": "LeetCode-Problem-Solving_1c3c6f77"
+        },
+        {
+            "type": "java",
             "name": "P_2176",
             "request": "launch",
             "mainClass": "P_2176",
