@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "P_1920",
+            "request": "launch",
+            "mainClass": "P_1920",
+            "projectName": "LeetCode-Problem-Solving_1c3c6f77"
+        },
+        {
+            "type": "java",
             "name": "P_3",
             "request": "launch",
             "mainClass": "P_3",
