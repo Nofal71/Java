@@ -3,6 +3,7 @@
  * @return {number[]}
  */
 var distinctDifferenceArray = function (nums) {
+    
     let diff = []
 
     for (let i = 0; i < nums.length; i++) {
@@ -17,7 +18,6 @@ var distinctDifferenceArray = function (nums) {
         }
 
         suffix = subArray_1.length;
-
         for (let j = 0; j <= i; j++) {
             if (!(subArray_2.includes(nums[j]))) {
                 subArray_2.push(nums[j])
@@ -25,7 +25,6 @@ var distinctDifferenceArray = function (nums) {
         }
 
         prefix = subArray_2.length;
-
         diff.push(prefix - suffix)
 
     }
