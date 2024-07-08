@@ -2,7 +2,7 @@ var maxFrequencyElements = function (nums) {
 
     let frequencies = [];
 
-       let index = 0;
+    let index = 0;
     for (let i = 0; i < nums.length; i++) {
 
         let freq = 0;
@@ -20,7 +20,6 @@ var maxFrequencyElements = function (nums) {
 
 
     let max = 0;
-
     for (let i = 0; i < frequencies.length; i++) {
         if (max < frequencies[i]) {
             max = frequencies[i];
