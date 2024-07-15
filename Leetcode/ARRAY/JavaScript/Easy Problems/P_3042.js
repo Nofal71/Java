@@ -4,27 +4,22 @@
  */
 var countPrefixSuffixPairs = function (words) {
     let i = 0, count = 0;
-
     while (i < words.length - 1) {
         let j = i + 1;
-
         while (j < words.length) {
             let isPrefix = Prefix(words[i], words[j]);
             if (!isPrefix) {
                 j++;
                 continue;
             }
-
             let isSuffix = Suffix(words[i], words[j]);
             if (!isSuffix) {
                 j++;
                 continue;
             }
-
             count++;
             j++;
         }
-
         i++;
     }
 
