@@ -1,1 +1,1 @@
-Prefix
+nums[i] % 2 == 0
