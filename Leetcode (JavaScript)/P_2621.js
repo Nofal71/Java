@@ -3,16 +3,17 @@
  * @return {Promise}
  */
 
-function asleep(m) {
-    return new Promise(() => {
-        setTimeout(() => {
-          console.log("Hello");
-        }, m)
-    })
-}
+// function asleep(m) {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve()
+//         }, m)
+//     })
+// }
 
 async function sleep(millis) {
-   await asleep(millis)
+    // await asleep(millis)
+    await new Promise((resolve , reject) => setTimeout(() => resolve() , millis))
 }
 
 sleep(2000);
