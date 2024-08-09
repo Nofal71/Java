@@ -32,9 +32,9 @@
  * @return {number[]}
  */
 var searchRange = function (nums, target) {
-  let start = searchRange_1(nums, target , true)
-  let end = searchRange_1(nums, target , false)
-  return [ start ,end]
+  let start = searchRange_1(nums, target, true)
+  let end = searchRange_1(nums, target, false)
+  return [start, end]
 
 };
 
@@ -49,10 +49,10 @@ var searchRange_1 = function (nums, target, firstIndex) {
       start = mid + 1
     } else {
       ans = mid
-      if(firstIndex){
-        end = mid-1
-      }else{
-        start = mid+1
+      if (firstIndex) {
+        end = mid - 1
+      } else {
+        start = mid + 1
       }
     }
   }
